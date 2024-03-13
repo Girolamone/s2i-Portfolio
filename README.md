@@ -16,4 +16,4 @@ This Portfolio is a project for the HTML and CSS course at start2impact Universi
 !THIS WEBSITE IS A TEMPORARY PROJECT, IT DOESN'T REPRESENT WHAT MY PERSONAL PORTFOLIO WILL OFFICIALLY LOOK LIKE!
 
 ## Give it a go, also works on Mobile.
-🗝️<a href="https://plainandsimplecounter.netlify.app/">Portfolio</a>🗝️
+🗝️<a href="https://filippoioriportfolio.netlify.app">Portfolio</a>🗝️
