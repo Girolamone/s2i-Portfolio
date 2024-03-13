@@ -1,5 +1,5 @@
 #  Temporary Portfolio Project
-<img alt="Screen" src="https://github.com/Girolamone/s2i-Counter-Project/blob/main/Images/ScreenCounterMin.png](https://github.com/Girolamone/s2i-Portfolio/blob/main/assets/GitScreen.jpg">
+<img alt="Screen" src="https://github.com/Girolamone/s2i-Portfolio/blob/main/assets/GitScreen.jpg">
 
 ## Used Languages
 * HTML
