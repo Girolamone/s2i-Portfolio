@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Philip Van Iori | Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://filippoioriportfolio.netlify.app" />
+    <meta property="og:image" content="https://filippoioriportfolio.netlify.app/assets/GitScreen.jpg" />
+    <meta property="og:description" content="Portfolio Filippo Iori - Web Developer Student per start2impact University" />
+
     <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>Philip Van Iori | Portfolio</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__content">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <title>Philip Van Iori | Contact Me</title>
+</head>
+<body>
+<nav>
+    <div class="nav__content">
         <div class="logo"><a href="/index.html">Phil.Van.Iori</a></div>
         <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
+            <i class="ri-menu-line"></i>
         </label>
         <input type="checkbox" name="check" id="check" />
         <ul>
+        
           <li><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <li><a href="CV.html">CV</a></li>
         </ul>
-      </div>
-    </nav>
-   
+    </div>
+</nav>
 
-      <div class="hero">
-        <form action="https://formspree.io/f/xgegzqwz" method="POST">
-          <div class="message-icon">
-           <i class="bi bi-telegram"></i>
-           <span>Contact Me</span>
-          </div>
-          <div id="input-field">
-           <i class="bi bi-person"></i>
-           <input type="text" placeholder="Name" name="Name">
-          </div>
-       
-          <div id="input-field">
-           <i class="bi bi-telephone"></i>
-           <input type="text" placeholder="Phone No." name="Phone">
-          </div>
-       
-          <div id="input-field">
-           <i class="bi bi-envelope"></i>
-           <input type="text" placeholder="Email Address" name="Email">
-          </div>
-          <div id="input-field">
-           <i class="bi bi-chat-right-dots"></i>
-           <textarea name="Message" placeholder="Message" rows="10"></textarea>
-          </div>
-          <input type="submit" value="Submit" class="send-btn">
-       
-       
-        </form>
-       
-       </div>
 
-    </section>
-   
-  </body>
+<div class="hero">
+    <form action="https://formspree.io/f/xgegzqwz" method="POST">
+        <div class="message-icon">
+            <i class="bi bi-telegram"></i>
+            <span>Contact Me</span>
+        </div>
+        <div id="input-field">
+            <i class="bi bi-person"></i>
+            <input type="text" placeholder="Name" name="Name" required>
+        </div>
+
+        <div id="input-field">
+            <i class="bi bi-telephone"></i>
+            <input type="text" placeholder="Phone No." name="Phone" required>
+        </div>
+
+        <div id="input-field">
+            <i class="bi bi-envelope"></i>
+            <input type="email" placeholder="Email Address" name="Email" required>
+        </div>
+        <div id="input-field">
+            <i class="bi bi-chat-right-dots"></i>
+            <textarea name="Message" placeholder="Message" rows="10" required></textarea>
+        </div>
+        <input type="submit" value="Submit" class="send-btn">
+
+
+    </form>
+
+</div>
+
+</body>
 </html>
